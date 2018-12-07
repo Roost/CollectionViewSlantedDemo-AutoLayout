@@ -6,6 +6,6 @@ target 'CollectionViewSlantedLayoutDemo' do
   use_frameworks!
 
   # Pods for CollectionViewSlantedLayoutDemo
-    pod 'CollectionViewSlantedLayout', :path => '../'
+    pod 'CollectionViewSlantedLayout', '~> 3.1'
 
 end

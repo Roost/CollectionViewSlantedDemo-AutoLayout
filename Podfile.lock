@@ -2,15 +2,15 @@ PODS:
   - CollectionViewSlantedLayout (3.1.1)
 
 DEPENDENCIES:
-  - CollectionViewSlantedLayout (from `../`)
+  - CollectionViewSlantedLayout (~> 3.1)
 
-EXTERNAL SOURCES:
-  CollectionViewSlantedLayout:
-    :path: "../"
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CollectionViewSlantedLayout
 
 SPEC CHECKSUMS:
-  CollectionViewSlantedLayout: a9866e5fc9a25887f3cf79527876aea8e4ce3f31
+  CollectionViewSlantedLayout: 24397455acd2461960bc45d394e0ef99c17d03ce
 
-PODFILE CHECKSUM: 784530443c4e94767488f5a14b699ce4f4b357bb
+PODFILE CHECKSUM: c9a3b4fde68b849120ddcbf163cddb76811448f8
 
 COCOAPODS: 1.5.3
