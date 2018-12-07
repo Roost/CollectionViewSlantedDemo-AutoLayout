@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
-        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -25,9 +24,8 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="q3K-Ts-hhw">
                                 <rect key="frame" x="0.0" y="0.0" width="397" height="248"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hEe-JI-B8Z">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hEe-JI-B8Z">
                                 <rect key="frame" x="177.5" y="113.5" width="42" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="1" green="0.1857388616" blue="0.57339501380000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -35,21 +33,22 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="q3K-Ts-hhw" firstAttribute="leading" secondItem="Qcy-4b-Hah" secondAttribute="leading" id="3th-fx-T3d"/>
-                            <constraint firstItem="q3K-Ts-hhw" firstAttribute="top" secondItem="Qcy-4b-Hah" secondAttribute="top" id="Pby-0q-OFR"/>
-                            <constraint firstAttribute="bottom" secondItem="q3K-Ts-hhw" secondAttribute="bottom" id="QbH-Qi-BCp"/>
-                            <constraint firstAttribute="trailing" secondItem="q3K-Ts-hhw" secondAttribute="trailing" id="bZj-gD-b2q"/>
+                            <constraint firstItem="q3K-Ts-hhw" firstAttribute="top" secondItem="Qcy-4b-Hah" secondAttribute="top" id="56e-y5-ErN"/>
+                            <constraint firstAttribute="bottom" secondItem="q3K-Ts-hhw" secondAttribute="bottom" id="84Z-OA-yEc"/>
+                            <constraint firstItem="hEe-JI-B8Z" firstAttribute="centerX" secondItem="Qcy-4b-Hah" secondAttribute="centerX" id="Bfb-9T-iAS"/>
+                            <constraint firstAttribute="trailing" secondItem="q3K-Ts-hhw" secondAttribute="trailing" id="HFy-Jn-rB5"/>
+                            <constraint firstItem="hEe-JI-B8Z" firstAttribute="centerY" secondItem="Qcy-4b-Hah" secondAttribute="centerY" id="MlC-oY-khv"/>
+                            <constraint firstItem="q3K-Ts-hhw" firstAttribute="leading" secondItem="Qcy-4b-Hah" secondAttribute="leading" id="wUt-Nk-pWQ"/>
                         </constraints>
                     </view>
                 </subviews>
             </view>
             <constraints>
-                <constraint firstItem="Qcy-4b-Hah" firstAttribute="top" secondItem="RDQ-6K-zJk" secondAttribute="top" id="Rve-sl-U4v"/>
-                <constraint firstItem="Qcy-4b-Hah" firstAttribute="leading" secondItem="RDQ-6K-zJk" secondAttribute="leading" id="m1Z-pe-qoL"/>
-                <constraint firstAttribute="bottom" secondItem="Qcy-4b-Hah" secondAttribute="bottom" id="sol-4x-htb"/>
-                <constraint firstAttribute="trailing" secondItem="Qcy-4b-Hah" secondAttribute="trailing" id="zUy-mp-t1c"/>
+                <constraint firstItem="Qcy-4b-Hah" firstAttribute="top" secondItem="RDQ-6K-zJk" secondAttribute="top" id="bRM-GZ-P0C"/>
+                <constraint firstAttribute="trailing" secondItem="Qcy-4b-Hah" secondAttribute="trailing" id="sAw-my-7bC"/>
+                <constraint firstAttribute="bottom" secondItem="Qcy-4b-Hah" secondAttribute="bottom" id="tSe-Zk-4Hr"/>
+                <constraint firstItem="Qcy-4b-Hah" firstAttribute="leading" secondItem="RDQ-6K-zJk" secondAttribute="leading" id="wyy-qU-qIw"/>
             </constraints>
-            <viewLayoutGuide key="safeArea" id="42n-kK-u7d"/>
             <size key="customSize" width="397" height="248"/>
             <connections>
                 <outlet property="backgroundView" destination="Qcy-4b-Hah" id="XrU-7H-Xin"/>
