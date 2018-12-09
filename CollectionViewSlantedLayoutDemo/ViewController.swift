@@ -100,7 +100,7 @@ extension ViewController: CollectionViewDelegateSlantedLayout {
     func collectionView(_ collectionView: UICollectionView,
                         layout collectionViewLayout: CollectionViewSlantedLayout,
                         sizeForItemAt indexPath: IndexPath) -> CGFloat {
-        return collectionViewLayout.scrollDirection == .vertical ? 275 : 325
+        return collectionViewLayout.scrollDirection == .vertical ? 500 : 325
     }
 }
 

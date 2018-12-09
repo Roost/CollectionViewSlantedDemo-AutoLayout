@@ -26,6 +26,9 @@ class CustomCollectionCell: CollectionViewSlantedCell {
         super.awakeFromNib()
 
         if let backgroundView = backgroundView {
+            
+            backgroundView.translatesAutoresizingMaskIntoConstraints = true
+            
             gradient.colors = [UIColor.clear.cgColor, UIColor.black.cgColor]
             gradient.locations = [0.0, 1.0]
             gradient.frame = backgroundView.bounds
